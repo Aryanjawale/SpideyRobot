@@ -17,6 +17,8 @@ class Config(object):
     EVENT_LOGS = (
         -1001197394366
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    MESSAGE_DUMP = ( 
+         -1001197394366 )
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://postgres:EhwlE3xkvmP7cIAQeAIS@containers-us-west-21.railway.app:6676/railway"
