@@ -5,22 +5,22 @@ import os
 class Config(object):
     LOGGER = True
     
-    API_ID = "4759912"  # integer value, dont use ""
+    API_ID = "4759912"  
     API_HASH = "5bcc548f108e30a913a339a4f97f315c"
     TOKEN = "5059068789:AAG1p9zixkDPEUZCjlKOz1g-OjPWaH1Xx0g"
     OWNER_ID = 1323719429  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Aryanjawale"
-    SUPPORT_CHAT = "trainer_zone"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "trainer_zone"  
     JOIN_LOGGER = (
         -1001197394366
-    )  # Prints any new group the bot is added to, prints just the name and ID.
+    )  
     EVENT_LOGS = (
         -1001197394366
-    )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    )  
     MESSAGE_DUMP = ( 
          -1001197394366 )
 
-    # RECOMMENDED
+    
     SQLALCHEMY_DATABASE_URI = "postgresql://postgres:EhwlE3xkvmP7cIAQeAIS@containers-us-west-21.railway.app:6676/railway"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -31,11 +31,11 @@ class Config(object):
     SPAMWATCH_API = "M7r11AlyDZGvFh2F9U6umCS96iVvyMC~Bo9khw2cKMcYvRBYyDOUNJ7FLQqEEwgP"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
-    ## DRAGONS = get_user_list("elevated_users.json", "sudos")
-    ## DEV_USERS = get_user_list("elevated_users.json", "devs")
-    ## DEMONS = get_user_list("elevated_users.json", "supports")
-   ## TIGERS = get_user_list("elevated_users.json", "tigers")
-   ## WOLVES = get_user_list("elevated_users.json", "whitelists")
+    DRAGONS = get_user_list("elevated_users.json", "sudos")
+    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEMONS = get_user_list("elevated_users.json", "supports")
+    TIGERS = get_user_list("elevated_users.json", "tigers")
+    WOLVES = get_user_list("elevated_users.json", "whitelists")
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
